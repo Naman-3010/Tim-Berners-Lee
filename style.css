@@ -39,7 +39,7 @@ h1 {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 70px;
     z-index: 19;
@@ -47,9 +47,30 @@ h1 {
 }
 
 .link {
-    color: saddlebrown;
+    color: saddlebrown !important;
     float: left;
     padding: 20;
     font-size: 20;
     font-family: "Gemunu libre"
 }
+
+#mainParagraph{
+    padding: 80px;
+    
+}
+
+p{
+    max-width: 600px;
+}
+
+a{
+    text-decoration: none;
+    
+    color:fuchsia;
+}
+
+#Work iframe{
+    border: 10px solid blue;
+}
+
+

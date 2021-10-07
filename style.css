@@ -1,10 +1,11 @@
-body{
-    text-align:center;
-    font-family:monospace;
-    padding-top:800px;
+body {
+    text-align: center;
+    font-family: cursive;
+    padding-top: 650px;
     margin: 0;
-    }
-#Welcome{
+}
+
+#Welcome {
     overflow: hidden;
     opacity: 0.9;
     height: 800px;
@@ -15,34 +16,39 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    font-size:30px;
-    background:radial-gradient(circle,#33B3FF 0%,#AE98B5 100%);
+    font-size: 30px;
+    background: radial-gradient(circle, #33B3FF 0%, #AE98B5 100%);
     z-index: 5;
 }
-p{
-    font-size:25;
-    font-family:"Akronim";
-    font-weight: 900;
+
+p {
+    font-size: 16;
+    font-family: cursive;
+    font-weight: 500;
 }
-#photo{
-    width: 180px;
-    padding-top: 150px
-    
+
+#photo {
+    width: 250px;
+    height: 220px;
+    padding-top: 150px;
 }
-h1{
-    font-size: 34px;
+
+h1 {
+    font-size: 24px;
 }
-.menu{
+
+.menu {
     list-style: none;
     position: absolute;
     top: 10px;
-    right: 30px;
+    right: 70px;
     z-index: 19;
     cursor: pointer;
 }
-.link{
-    color:saddlebrown;
-    float:left;
+
+.link {
+    color: saddlebrown;
+    float: left;
     padding: 20;
     font-size: 20;
     font-family: "Gemunu libre"
